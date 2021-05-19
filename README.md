@@ -1,4 +1,4 @@
-# flutter_latsar_bpkp_tugas_dua
+# flutter_diklat_project
 
 A new Flutter project.
 
