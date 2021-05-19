@@ -3,7 +3,9 @@ import 'package:flutter/material.dart';
 class TitleLatListGrid extends StatelessWidget {
   final String textTitle;
 
-  const TitleLatListGrid({Key key, this.textTitle}) : super(key: key);
+  const TitleLatListGrid({
+    required this.textTitle,
+  }) : super();
 
   @override
   Widget build(BuildContext context) {

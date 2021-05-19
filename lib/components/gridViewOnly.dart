@@ -1,10 +1,6 @@
 import 'package:flutter/material.dart';
 
 class GridViewOnly extends StatelessWidget {
-  const GridViewOnly({
-    Key key,
-  }) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
     return Container(

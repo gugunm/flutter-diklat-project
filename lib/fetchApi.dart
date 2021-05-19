@@ -26,7 +26,7 @@ class FetchApi extends StatefulWidget {
 }
 
 class _FetchApiState extends State<FetchApi> {
-  Future<Album> futureAlbum;
+  late Future<Album> futureAlbum;
 
   @override
   void initState() {
@@ -45,7 +45,7 @@ class _FetchApiState extends State<FetchApi> {
           future: futureAlbum,
           builder: (context, snapshot) {
             if (snapshot.hasData) {
-              return Text(snapshot.data.title);
+              return Text(snapshot.data!.title);
             } else if (snapshot.hasError) {
               return Text("${snapshot.error}");
             }

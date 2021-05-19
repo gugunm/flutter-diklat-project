@@ -2,10 +2,9 @@ import 'package:flutter/material.dart';
 
 class ListViewBuilder extends StatelessWidget {
   const ListViewBuilder({
-    Key key,
-    @required this.entries,
-    @required this.colorCodes,
-  }) : super(key: key);
+    required this.entries,
+    required this.colorCodes,
+  }) : super();
 
   final List<String> entries;
   final List<int> colorCodes;

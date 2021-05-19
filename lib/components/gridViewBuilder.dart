@@ -2,10 +2,9 @@ import 'package:flutter/material.dart';
 
 class GridViewBuilder extends StatelessWidget {
   const GridViewBuilder({
-    Key key,
-    @required this.entries,
-    @required this.colorCodes,
-  }) : super(key: key);
+    required this.colorCodes,
+    required this.entries,
+  }) : super();
 
   final List<String> entries;
   final List<int> colorCodes;

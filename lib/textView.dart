@@ -4,7 +4,7 @@ import 'components/tombolWarna.dart';
 class TextView extends StatefulWidget {
   final String textFromHome;
 
-  const TextView({Key key, @required this.textFromHome}) : super(key: key);
+  const TextView({required this.textFromHome}) : super();
 
   @override
   _TextViewState createState() => _TextViewState();

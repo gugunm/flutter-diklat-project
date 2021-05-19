@@ -10,9 +10,9 @@ String albumToJson(Album data) => json.encode(data.toJson());
 
 class Album {
   Album({
-    this.userId,
-    this.id,
-    this.title,
+    required this.userId,
+    required this.id,
+    required this.title,
   });
 
   int userId;
