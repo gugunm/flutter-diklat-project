@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_latsar_bpkp_tugas_dua/listPegawai.dart';
 import 'textView.dart';
 import 'latListView.dart';
 import 'fetchApi.dart';
+import 'listPegawai.dart';
 
 void main() {
   runApp(MyApp());
@@ -187,6 +189,30 @@ class _MyHomePageState extends State<MyHomePage> {
                         padding: const EdgeInsets.symmetric(
                             horizontal: 50, vertical: 13),
                         child: Text('Fetch API'),
+                      ),
+                    ),
+                  ),
+                  SizedBox(
+                    height: 15,
+                  ),
+                  Container(
+                    width: 250,
+                    height: 50,
+                    child: ElevatedButton(
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => ListPegawai()),
+                        );
+                      },
+                      style: ElevatedButton.styleFrom(
+                        primary: Colors.deepOrange,
+                      ),
+                      child: Padding(
+                        padding: const EdgeInsets.symmetric(
+                            horizontal: 50, vertical: 13),
+                        child: Text('Profil Pegawai'),
                       ),
                     ),
                   ),

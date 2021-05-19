@@ -1,6 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.flutter_latsar_bpkp_tugas_dua">
+    <uses-permission android:name="android.permission.INTERNET" />
    <application
+        android:usesCleartextTraffic="true"
         android:label="flutter_latsar_bpkp_tugas_dua"
         android:icon="@mipmap/ic_launcher">
         <activity
