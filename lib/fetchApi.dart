@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 
 import 'package:http/http.dart' as http;
-import 'model/album.dart';
+import 'models/album.dart';
 
 // Pake future karena kita gak tau apa
 // yang mau di return oleh functionnya
