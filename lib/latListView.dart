@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'components/listViewBuilder.dart';
-import 'components/gridViewBuilder.dart';
-import 'components/titleLatListGrid.dart';
-import 'components/listViewSeparated.dart';
-import 'components/listViewOnly.dart';
-import 'components/gridViewOnly.dart';
+import 'widgets/listViewBuilder.dart';
+import 'widgets/gridViewBuilder.dart';
+import 'widgets/titleLatListGrid.dart';
+import 'widgets/listViewSeparated.dart';
+import 'widgets/listViewOnly.dart';
+import 'widgets/gridViewOnly.dart';
 
 class LatListView extends StatefulWidget {
   @override

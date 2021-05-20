@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'components/tombolWarna.dart';
+import 'widgets/tombolWarna.dart';
 
 class TextView extends StatefulWidget {
   final String textFromHome;
